@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>My GCP Associate Cloud Engineer exam experience | Wei Ching’s Website</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="My GCP Associate Cloud Engineer exam experience" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My GCP ACE exam experience as part of the Google Cloud Student Sprint program" />
+<meta property="og:description" content="My GCP ACE exam experience as part of the Google Cloud Student Sprint program" />
+<link rel="canonical" href="https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html" />
+<meta property="og:url" content="https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html" />
+<meta property="og:site_name" content="Wei Ching’s Website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"My GCP ACE exam experience as part of the Google Cloud Student Sprint program","dateModified":"2020-08-30T00:00:00-05:00","datePublished":"2020-08-30T00:00:00-05:00","headline":"My GCP Associate Cloud Engineer exam experience","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html"},"url":"https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://agrilive.github.io/blog/feed.xml" title="Wei Ching's Website" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>My GCP Associate Cloud Engineer exam experience | Wei Ching’s Website</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="My GCP Associate Cloud Engineer exam experience" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My GCP ACE exam experience as part of the Google Cloud Student Sprint program" />
+<meta property="og:description" content="My GCP ACE exam experience as part of the Google Cloud Student Sprint program" />
+<link rel="canonical" href="https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html" />
+<meta property="og:url" content="https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html" />
+<meta property="og:site_name" content="Wei Ching’s Website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"My GCP ACE exam experience as part of the Google Cloud Student Sprint program","dateModified":"2020-08-30T00:00:00-05:00","datePublished":"2020-08-30T00:00:00-05:00","headline":"My GCP Associate Cloud Engineer exam experience","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html"},"url":"https://agrilive.github.io/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://agrilive.github.io/blog/feed.xml" title="Wei Ching's Website" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/blog/">Wei Ching's Website</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">My GCP Associate Cloud Engineer exam experience</h1>
+<p class="page-description">My GCP ACE exam experience as part of the Google Cloud Student Sprint program</p>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-08-30T00:00:00-05:00" itemprop="datePublished">
+        Aug 30, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#GCP">GCP</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1">
+<a href="#my-gcp-associate-cloud-engineer-exam-experience">My GCP Associate Cloud Engineer exam experience</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#the-exam">The exam</a></li>
+<li class="toc-entry toc-h2"><a href="#google-cloud-student-sprint-program">Google Cloud Student Sprint Program</a></li>
+<li class="toc-entry toc-h2"><a href="#resources">Resources</a></li>
+<li class="toc-entry toc-h2"><a href="#my-reflections">My reflections</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="my-gcp-associate-cloud-engineer-exam-experience">
+<a class="anchor" href="#my-gcp-associate-cloud-engineer-exam-experience" aria-hidden="true"><span class="octicon octicon-link"></span></a>My GCP Associate Cloud Engineer exam experience</h1>
+
+<p>I was prepared to fail.</p>
+
+<p>The Google Cloud Platform Associate Cloud Engineer (GCP ACE) Exam has been known to be tough. Google does not make the passing score known officially. However, writers on online forums have mentioned that a 75-80% score is needed to pass the exam.</p>
+
+<h2 id="the-exam">
+<a class="anchor" href="#the-exam" aria-hidden="true"><span class="octicon octicon-link"></span></a>The exam</h2>
+
+<p>As I stepped into the test center, I mentally prepared myself for the 50 questions, 2 hour long paper. Alas, we were not allowed to bring in any pen or blank paper. My plan was to note down my thought process on paper so that I can reference it as I review my answers. Thankfully, there was a “Mark this question for review” box under each question. I made use of it until I realised the uncertainty in my answers and require a relook on most of them.</p>
+
+<p>Half time into the exam, I started losing concentration. Water bottles were not allowed into the test center as well. I shut my eyes temporarily for a short break. Took three deep breaths, and continued the exam. Besides being an intellectually challenging exam, it was an endurance test.</p>
+
+<p>I managed to complete the test in 1.5 hours. The exam duration was more than sufficient. I checked through all my questions, made some adjustments and submitted the paper before the timer ended. There were some instruction pages after the submission, including the information that the exam results will be validated and confirmed in 7 to 10 days. As I clicked the final exit button, my eyes vaguely saw the words in green: Passed. Before I knew it, my fingers had clicked the mouse and the page was exited.</p>
+
+<p>Were my eyes cheating me? I couldn’t believe what I saw. I had passed the exam!</p>
+
+<h2 id="google-cloud-student-sprint-program">
+<a class="anchor" href="#google-cloud-student-sprint-program" aria-hidden="true"><span class="octicon octicon-link"></span></a>Google Cloud Student Sprint Program</h2>
+
+<p>I was part of the Google Cloud Student Sprint Program last summer. It was a ten-week long program where we were split into small teams of five students and have a Googler attached to us. Our mentor was an expert in Google Cloud, and we had weekly mentoring sessions together. During these sessions, we went through key concepts, such as networking, and the questions in the <a href="https://www.academia.edu/41551326/Official_Google_Cloud_Certified_Associate_Cloud_Engineer_Study_Guide">Official Google Cloud Certified Associate Cloud Engineer Study Guide by Dan Sullivan</a>.</p>
+
+<p>Not to mention, we were given access to two Coursera courses: Architecting with Google Compute Engine specialization and Preparing for the Google Cloud Associate Cloud Engineer Exam course. These resources gave me foundational knowledge on GCP and its functionalities.</p>
+
+<p>We were given a schedule to complete these courses, and it was rather manageable. Though I was behind schedule for the first month, I felt taken care of. Charlotte and Su Jen, the Googlers in charge of the program, would check in on me. They were very understanding and gave many encouragements. <img class="emoji" title=":smiley:" alt=":smiley:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f603.png" height="20" width="20"></p>
+
+<p>Throughout the program, there were workshops and Recruiter Office Hours almost every week. It was amazing! The workshop I found most impactful was the I Am Remarkable workshop. It was an intimate session with less than ten of us and Charlotte. We were given time to reflect and share our reflections. Tips were also given on how to be confident of ourselves.</p>
+
+<p>Overall, it had been an exciting experience. I would definitely recommend it to students, technical and non-technical ones (I come from a non-technical background), especially those who are interested in a career with Google. The Google Swags given were awesome! <img class="emoji" title=":heart_eyes:" alt=":heart_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60d.png" height="20" width="20"></p>
+
+<h2 id="resources">
+<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h2>
+
+<p>As mentioned earlier, I relied on the <a href="https://www.academia.edu/41551326/Official_Google_Cloud_Certified_Associate_Cloud_Engineer_Study_Guide">Official Google Cloud Certified Associate Cloud Engineer Study Guide by Dan Sullivan</a>. This study guide gives a brief overview of each concept, and contains questions that test your basic understanding of these concepts, such as the file type to deploy an app in the App Engine. However, there are two downfalls to solely relying on this book for preparation. First, some of the information, such as the answers, may be outdated. This was overcame by the knowledge from our mentor who would point to us the relevant online documentations. Second, the type of questions in the book do not appear in the actual exam.</p>
+
+<p>The actual exam was very scenario-based. It tested on your ability to distinguish between the various GCP functions and the situations where one function trumps another.</p>
+
+<p>This might be overcome by the <a href="https://www.examtopics.com/exams/google/associate-cloud-engineer/">Exam Topics Database</a> which contains 159 GCP questions. One of my peers mentioned that she saw about half of her exam questions appearing in t. However, a caveat is the unrealiable answers given. Readers do discuss about the answer options and provide documentation links to back up their claims. I would suggest looking up these documentations to have a better understanding.</p>
+
+<p>In addition, I picked up question-answering techniques from the <a href="https://www.youtube.com/playlist?list=PLQMsfKRZZviRwqJwNmh1eAWnRMvlrk40x">AwesomeGCP Practice Exam Q&amp;A playlist</a>. I found this very relevant when I was taking the exam. Some questions are tricky by nature. Though the answer choices seem to be correct, they might be using the wrong keywords. For example, the word <code class="highlighter-rouge">pod</code> is associated with the Google Kubernetes Engine and not the Compute Engine. Besides that, the elimination technique comes in handy and this series of videos teaches us how to make a smart elimination choice.</p>
+
+<h2 id="my-reflections">
+<a class="anchor" href="#my-reflections" aria-hidden="true"><span class="octicon octicon-link"></span></a>My reflections</h2>
+
+<p>Honestly, there was too much information to memorise. The most important thing was to <em>understand the concepts</em>. I relied heavily on the Google Cloud documentations (Concepts and How-to Guides). Illustrations were helpful in breaking the concepts down.</p>
+
+<p>Since everyone had a different set of exam questions, which were centered on different concepts, I didn’t focus on any concepts in particular. My paper was mainly about Networking and IAM. Others were about computing or storage. The IAM quetions I had were similar in nature, asking about whether roles should be assigned to an individual or group. Linking back to the point on understanding the concepts, it was important to recognise that the recommended Google practice is to create a new group (add the individuals to the group) and assign a role to the group.</p>
+
+<p>I tried to make the best guess on questions that I was unsure of. Thankfully, I passed the exam.</p>
+
+  </div>
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js" repo="agrilive/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
+</script><a class="u-url" href="/blog/gcp/2020/08/30/GCP-Associate-Cloud-Engineer-Exam.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Reflections, thoughts, and learnings</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list"><li><a rel="me" href="https://github.com/agrilive" title="agrilive"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
