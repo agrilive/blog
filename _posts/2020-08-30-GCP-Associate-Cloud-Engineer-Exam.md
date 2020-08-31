@@ -1,3 +1,12 @@
+---
+title: "My GCP Associate Cloud Engineer exam experience"
+description: My GCP ACE exam experience as part of the Google Cloud Student Sprint program
+toc: true
+comments: true
+layout: post
+categories: [GCP]
+---
+
 # My GCP Associate Cloud Engineer exam experience
 
 I was prepared to fail. 
