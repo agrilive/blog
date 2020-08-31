@@ -1,4 +1,11 @@
-# Why I started my Data Science journey
+---
+title: "Why I started my Data Science journey"
+description: My journey from Social Science to Data Science
+toc: false
+comments: true
+layout: post
+categories: [data science, career]
+---
 
 I'm an incoming final-year Politics, Law and Economics (PLE) major student. Never have I thought of going into the tech sector before my university days. In fact, when I started learning Python 1.5 years ago, I told myself I am not going to touch it again.
 
